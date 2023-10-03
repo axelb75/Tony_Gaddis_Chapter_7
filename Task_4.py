@@ -1,3 +1,5 @@
+print('Задание 4. Программа анализа чисел')
+
 twenty_numbers = []
 sum_numbers = 0
 
