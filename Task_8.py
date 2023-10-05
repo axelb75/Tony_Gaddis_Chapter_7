@@ -9,7 +9,7 @@ def check_names():
         print('Данного имени нет среди популярных имён девочек.')
 
 
-boy_names = open('BoyNames.txt').read().splitlines()
+boy_names = open('BoyNames.txt', 'r').read().splitlines()
 girl_names = open('GirlNames.txt', 'r').read().splitlines()
 
 user_boy_name = input('Введите имя мальчика: ')
